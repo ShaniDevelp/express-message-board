@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  h1  #{title}
+
+  form(method ="POST", action='/new') 
+    table 
+      tr
+        td 
+          input(type="text", name='username' placeholder='Name' required)
+      tr
+        td 
+          input(type="text", name='usermessage' placeholder='Message' required)
+      tr 
+        td 
+          input(type="submit", value="submit")
+          
+
+           
+     
+     
+     
+
+
+
